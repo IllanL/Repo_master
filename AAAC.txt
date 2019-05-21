@@ -1,3 +1,0 @@
--rw-rw-r-- 1 dsc dsc 7,8M abr  2  2018 optd_por_public.csv
--rw-rw-r-- 1 dsc dsc 105K abr  2  2018 optd_airlines.csv
--rw-rw-r-- 1 dsc dsc  19K abr  2  2018 optd_aircraft.csv
