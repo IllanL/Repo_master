@@ -1,0 +1,3 @@
+-rw-r--r--  1 dsc dsc  83K abr 27 12:06 less --help
+-rw-rw-r--  1 dsc dsc  17K may 20 22:37 historial2.txt
+-rw-rw-r--  1 dsc dsc  10K may 10 20:35 compressed3.tar
