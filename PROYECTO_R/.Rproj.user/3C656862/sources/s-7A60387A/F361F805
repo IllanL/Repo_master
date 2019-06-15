@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1560525609753.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F361F805",
+    "lastKnownWriteTime" : 1560539990,
+    "last_content_update" : 1560539990584,
+    "path" : "~/PROYECTO_R/01-introducción.R",
+    "project_path" : "01-introducción.R",
+    "properties" : {
+        "cursorPosition" : "207,3",
+        "scrollLine" : "193",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
