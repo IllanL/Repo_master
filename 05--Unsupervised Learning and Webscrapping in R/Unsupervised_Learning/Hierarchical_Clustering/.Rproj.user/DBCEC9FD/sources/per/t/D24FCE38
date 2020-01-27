@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562956944896.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "211511549",
+    "id" : "D24FCE38",
+    "lastKnownWriteTime" : 1562778118,
+    "last_content_update" : 1562778118,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/Unsupervised_Learning/Hierarchical_Clustering/notebook.R",
+    "project_path" : "notebook.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

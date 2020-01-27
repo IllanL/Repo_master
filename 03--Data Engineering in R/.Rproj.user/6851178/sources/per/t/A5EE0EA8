@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562783017738.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2128103443",
+    "id" : "A5EE0EA8",
+    "lastKnownWriteTime" : 1557429533,
+    "last_content_update" : 1557429533,
+    "path" : "C:/Users/Henry N/Google Drive/henavarr@math.uc3m.es 2018-07-10 23_17/KSchool/my_course/Data_Engineering_R/Connect_DDBB/open_connection_mysql.R",
+    "project_path" : "Connect_DDBB/open_connection_mysql.R",
+    "properties" : {
+        "cursorPosition" : "42,0",
+        "scrollLine" : "32"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

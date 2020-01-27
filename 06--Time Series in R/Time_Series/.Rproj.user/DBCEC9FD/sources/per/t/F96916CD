@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1563559970424.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3591357611",
+    "id" : "F96916CD",
+    "lastKnownWriteTime" : 1563563180,
+    "last_content_update" : 1563563180311,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/01--CLASES R/Time_Series/development/02 training_and_testing/choose_best_model.R",
+    "project_path" : "development/02 training_and_testing/choose_best_model.R",
+    "properties" : {
+        "cursorPosition" : "77,0",
+        "scrollLine" : "75"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

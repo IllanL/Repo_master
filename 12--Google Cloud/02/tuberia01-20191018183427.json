@@ -1,0 +1,31 @@
+{
+  "params": [],
+  "jobs": [
+    {
+      "hash_start_conditions": [],
+      "worker_class": "Commenter",
+      "params": [
+        {
+          "description": null,
+          "value": "Esto es para comentar",
+          "label": "Comment",
+          "is_required": false,
+          "type": "text",
+          "name": "comment"
+        },
+        {
+          "description": null,
+          "value": false,
+          "label": "Finish successfully",
+          "is_required": false,
+          "type": "boolean",
+          "name": "success"
+        }
+      ],
+      "id": "e850c74116084de4a057f2d5dcb9df27",
+      "name": "Descripcion"
+    }
+  ],
+  "name": "TUBERIA01",
+  "schedules": []
+}

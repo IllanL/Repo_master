@@ -1,0 +1,41 @@
+---
+output: html_document
+---
+
+```{r results='asis', echo=FALSE}
+
+library(ggplot2)
+
+for (i in 1:nrow(mpg)) {
+
+  cat(paste0("# Este coche de la marca ", mpg[i, "model"], " es del año ", mpg[i,"year"], "\n\n"))
+
+}
+
+# Este coche de la marca XXX es del año YYY
+
+```
+
+# AAA
+
+```{r results='asis', echo=FALSE}
+
+library(ggplot2)
+
+beneficio <- 1000
+
+if (beneficio>=0){
+  cat(paste0("Este año hemos tenido unos beneficios de ", beneficio, " euros"))
+} else {
+ cat(paste0("Este año hemos tenido unas pérdidas de ", beneficio, " euros")) 
+  
+}
+
+```
+
+
+
+
+# SEGUNDA FORMA DE ESCRIBIRLO:
+
+Este año hemos tenido un `r if (beneficio>=0) "beneficios" else "pérdidas"` con un total de `r beneficio`

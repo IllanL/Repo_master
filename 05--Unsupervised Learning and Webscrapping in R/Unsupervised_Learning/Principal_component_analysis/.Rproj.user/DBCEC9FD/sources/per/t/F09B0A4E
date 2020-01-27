@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562959825590.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "923269830",
+    "id" : "F09B0A4E",
+    "lastKnownWriteTime" : 1562779269,
+    "last_content_update" : 1562779269,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/Unsupervised_Learning/Principal_component_analysis/solucion.R",
+    "project_path" : "solucion.R",
+    "properties" : {
+        "cursorPosition" : "20,19",
+        "scrollLine" : "9"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

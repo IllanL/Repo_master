@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562407363259.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3182092795",
+    "id" : "DEECEC2C",
+    "lastKnownWriteTime" : 1550235821,
+    "last_content_update" : 1550235821,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/Supervised_Learning_v2/Supervised_Learning/Support_vector_machine/solucion.R",
+    "project_path" : "solucion.R",
+    "properties" : {
+        "cursorPosition" : "103,19",
+        "scrollLine" : "85"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

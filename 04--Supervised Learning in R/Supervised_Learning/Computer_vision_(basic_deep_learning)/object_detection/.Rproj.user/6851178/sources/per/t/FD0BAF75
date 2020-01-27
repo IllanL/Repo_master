@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550861327242.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1701392120",
+    "id" : "FD0BAF75",
+    "lastKnownWriteTime" : 1550837698,
+    "last_content_update" : 1550837698,
+    "path" : "C:/Users/Henry N/Desktop/KSchool/my_course/Supervised_Learning/Computer_vision_(basic_deep_learning)/object_detection/Notebook.R",
+    "project_path" : "Notebook.R",
+    "properties" : {
+        "cursorPosition" : "88,34",
+        "scrollLine" : "78"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

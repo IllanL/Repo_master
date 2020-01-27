@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1563386421804.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "722503227",
+    "id" : "BA6023D1",
+    "lastKnownWriteTime" : 1563295844,
+    "last_content_update" : 1563390390634,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/P_Clase de refuerzo/Prob_and_Statistics_R/ANOVA_special.R",
+    "project_path" : "ANOVA_special.R",
+    "properties" : {
+        "cursorPosition" : "112,11",
+        "scrollLine" : "91"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

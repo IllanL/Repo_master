@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562362408670.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2452405101",
+    "id" : "C4B196EA",
+    "lastKnownWriteTime" : 1562364105,
+    "last_content_update" : 1562364105976,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/Supervised_Learning_v2/Supervised_Learning/Decision_tree/Instalador.R",
+    "project_path" : "Instalador.R",
+    "properties" : {
+        "cursorPosition" : "27,2",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

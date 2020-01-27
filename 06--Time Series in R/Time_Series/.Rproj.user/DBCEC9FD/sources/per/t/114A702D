@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1563557291023.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3630370204",
+    "id" : "114A702D",
+    "lastKnownWriteTime" : 1563558926,
+    "last_content_update" : 1563558926485,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/01--CLASES R/Time_Series/development/01 descarga_scraping/download_ftp_omie.R",
+    "project_path" : "development/01 descarga_scraping/download_ftp_omie.R",
+    "properties" : {
+        "cursorPosition" : "11,52",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

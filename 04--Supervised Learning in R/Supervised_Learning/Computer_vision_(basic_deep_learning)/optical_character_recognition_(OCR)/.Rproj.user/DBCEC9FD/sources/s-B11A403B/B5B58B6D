@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562414409236.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B5B58B6D",
+    "lastKnownWriteTime" : 1550836666,
+    "last_content_update" : 1550836666,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/Supervised_Learning_v2/Supervised_Learning/Computer_vision_(basic_deep_learning)/optical_character_recognition_(OCR)/.Rprofile",
+    "project_path" : ".Rprofile",
+    "properties" : {
+        "cursorPosition" : "7,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

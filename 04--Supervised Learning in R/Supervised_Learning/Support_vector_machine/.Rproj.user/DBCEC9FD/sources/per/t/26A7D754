@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562409549326.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1516637280",
+    "id" : "26A7D754",
+    "lastKnownWriteTime" : 1562411765,
+    "last_content_update" : 1562411765691,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/Supervised_Learning_v2/Supervised_Learning/Support_vector_machine/notebook_3.R",
+    "project_path" : "notebook_3.R",
+    "properties" : {
+        "cursorPosition" : "104,50",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

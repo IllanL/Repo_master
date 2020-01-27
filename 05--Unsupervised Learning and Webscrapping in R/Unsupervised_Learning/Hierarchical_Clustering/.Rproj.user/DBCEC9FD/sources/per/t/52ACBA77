@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562956945601.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2356462960",
+    "id" : "52ACBA77",
+    "lastKnownWriteTime" : 1562958443,
+    "last_content_update" : 1562958443094,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/Unsupervised_Learning/Hierarchical_Clustering/solucion.R",
+    "project_path" : "solucion.R",
+    "properties" : {
+        "cursorPosition" : "93,28",
+        "scrollLine" : "76"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

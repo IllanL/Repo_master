@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1563015672741.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2367075618",
+    "id" : "2C7C0CC",
+    "lastKnownWriteTime" : 1563027924,
+    "last_content_update" : 1563027924972,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/Data_Engineering_R/APIs/download_google.R",
+    "project_path" : "APIs/download_google.R",
+    "properties" : {
+        "cursorPosition" : "279,2",
+        "scrollLine" : "276"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562959824701.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2554907468",
+    "id" : "C009D090",
+    "lastKnownWriteTime" : 1562779277,
+    "last_content_update" : 1562779277,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/Unsupervised_Learning/Principal_component_analysis/notebook.R",
+    "project_path" : "notebook.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

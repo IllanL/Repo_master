@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1561204426105.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2403741470",
+    "id" : "4D4368E7",
+    "lastKnownWriteTime" : 1561204540,
+    "last_content_update" : 1561204540031,
+    "path" : "~/PROYECTO WEBSCRAPPING/WEBSCRAPPING/LIBRERÍAS DE R.R",
+    "project_path" : "LIBRERÍAS DE R.R",
+    "properties" : {
+        "cursorPosition" : "12,42",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

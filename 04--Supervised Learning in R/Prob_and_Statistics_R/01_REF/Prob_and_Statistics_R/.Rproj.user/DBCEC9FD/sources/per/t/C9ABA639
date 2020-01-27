@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1563386425141.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2474499984",
+    "id" : "C9ABA639",
+    "lastKnownWriteTime" : 1563392052,
+    "last_content_update" : 1563392052140,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/P_Clase de refuerzo/Prob_and_Statistics_R/stats.R",
+    "project_path" : "stats.R",
+    "properties" : {
+        "cursorPosition" : "468,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,30 @@
+url <- "https://www.pisos.com/venta/pisos-madrid_capital/"
+
+pisospuntocom <- read_html(url, silent=1)
+
+pisospuntocom
+
+
+detail <- pisospuntocom %>%
+  html_nodes(".price") %>%
+  html_text()
+
+detail
+
+price <- detail[grepl("\u20AC",detail, perl=TRUE)]
+
+price <- gsub("\u20AC","",price,perl=TRUE)
+
+price
+
+price <- detail[grepl("\u20AC",detail, perl=TRUE)]
+
+price <- gsub(" ","",chartr("."," ", price))
+
+price <- gsub("\r\n", "",price)
+
+price
+
+price2 <- as.numeric(price)
+
+price2

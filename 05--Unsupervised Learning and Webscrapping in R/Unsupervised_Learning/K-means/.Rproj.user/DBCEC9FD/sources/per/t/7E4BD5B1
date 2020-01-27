@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562948899668.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3929575433",
+    "id" : "7E4BD5B1",
+    "lastKnownWriteTime" : 1562956929,
+    "last_content_update" : 1562956929865,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/Unsupervised_Learning/K-means/notebook.R",
+    "project_path" : "notebook.R",
+    "properties" : {
+        "cursorPosition" : "177,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

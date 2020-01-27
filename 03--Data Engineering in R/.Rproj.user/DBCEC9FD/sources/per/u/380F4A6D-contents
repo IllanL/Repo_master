@@ -1,0 +1,13 @@
+cosa <- df_idealista$price/df_idealista$size
+
+cosa2 <- (df_idealista$price/(df_idealista$size**0.8))
+
+plot(df_idealista$size, cosa)
+
+plot(df_idealista$size, cosa2)
+
+plot(df_idealista$size, df_idealista$price)
+
+cosa/cosa2
+
+df_idealista$lat

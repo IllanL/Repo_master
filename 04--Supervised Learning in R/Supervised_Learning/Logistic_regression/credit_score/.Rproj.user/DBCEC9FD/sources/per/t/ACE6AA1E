@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562939471177.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3727789506",
+    "id" : "ACE6AA1E",
+    "lastKnownWriteTime" : 1550173101,
+    "last_content_update" : 1550173101,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/Supervised_Learning_v2/Supervised_Learning/Logistic_regression/credit_score/notebook.R",
+    "project_path" : "notebook.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

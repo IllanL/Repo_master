@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1561739441634.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "41152807",
+    "id" : "F50FF9AE",
+    "lastKnownWriteTime" : 1561745463,
+    "last_content_update" : 1561745463175,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/R_Henry/mio.R",
+    "project_path" : "mio.R",
+    "properties" : {
+        "cursorPosition" : "88,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

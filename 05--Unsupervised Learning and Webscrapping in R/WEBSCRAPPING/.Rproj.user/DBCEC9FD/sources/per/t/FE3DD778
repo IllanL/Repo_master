@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1561204433100.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "510478784",
+    "id" : "FE3DD778",
+    "lastKnownWriteTime" : 1561204559,
+    "last_content_update" : 1561204559161,
+    "path" : "~/PROYECTO WEBSCRAPPING/WEBSCRAPPING/USO DE DESCARGAR WEB.R",
+    "project_path" : "USO DE DESCARGAR WEB.R",
+    "properties" : {
+        "cursorPosition" : "14,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

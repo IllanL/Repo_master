@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1563014263701.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "352152258",
+    "id" : "6176D5F5",
+    "lastKnownWriteTime" : 1563027924,
+    "last_content_update" : 1563027924837,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/Data_Engineering_R/APIs/google_geocode.R",
+    "project_path" : "APIs/google_geocode.R",
+    "properties" : {
+        "cursorPosition" : "29,9",
+        "scrollLine" : "8"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

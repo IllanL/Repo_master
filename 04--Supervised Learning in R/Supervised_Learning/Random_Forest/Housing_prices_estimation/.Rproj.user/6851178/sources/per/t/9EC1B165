@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550855697099.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1700943464",
+    "id" : "9EC1B165",
+    "lastKnownWriteTime" : 1550234532,
+    "last_content_update" : 1550234532,
+    "path" : "C:/Users/Henry N/Desktop/KSchool/my_course/Supervised_Learning/Random_Forest/Housing_prices_estimation/notebook.R",
+    "project_path" : "notebook.R",
+    "properties" : {
+        "cursorPosition" : "12,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

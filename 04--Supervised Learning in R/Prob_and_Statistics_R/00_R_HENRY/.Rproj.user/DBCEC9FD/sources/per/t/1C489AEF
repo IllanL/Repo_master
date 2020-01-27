@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1561744647905.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1656622117",
+    "id" : "1C489AEF",
+    "lastKnownWriteTime" : 1561804092,
+    "last_content_update" : 1561804092851,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/R_Henry/stats.R",
+    "project_path" : "stats.R",
+    "properties" : {
+        "cursorPosition" : "410,16",
+        "scrollLine" : "396"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

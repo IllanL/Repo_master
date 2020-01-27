@@ -1,0 +1,51 @@
+# CONTROL POR EVENTOS:
+
+# En este script se ven los eventos de click:
+
+
+library(shiny)
+library(ggplot2)
+# library(plotly)
+
+aaa=mpg
+
+ui <- fluidPage(
+  titlePanel("Visualización con ggplot y plotly"),
+  sidebarLayout(
+    sidebarPanel(),
+    mainPanel(
+      plotOutput("grafica", click="clickgrafica"),
+      verbatimTextOutput("resultado")
+      # plotlyOutput("grafica")
+    )
+    
+  )
+)
+
+
+
+server <- function(input,output){
+  
+  # MI SERVIDOR:
+  
+  output$grafica <- renderPlot({
+    
+    # Hacer gráfica
+    
+    ggplot(mpg, aes(x=cyl,y=hwy))+geom_point()
+    
+  })
+  
+  output$resultado <- renderText({
+    
+    as.character(nearPoints(mpg, input$clickgrafica,  threshold = 50))
+    
+    # ggplotly(grafica, nearPoints(mpg, input$clickgrafica,  threshold = 50))
+    
+  })
+  
+}
+
+shinyApp(ui=ui,server=server)
+
+

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1561202049080.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "556554287",
+    "id" : "4D41B10C",
+    "lastKnownWriteTime" : 1561203889,
+    "last_content_update" : 1561203889765,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/GIT/PROYECTO_SHINY_R/descargarweb.R",
+    "project_path" : "descargarweb.R",
+    "properties" : {
+        "cursorPosition" : "30,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 13,
+    "source_on_save" : true,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1561204090098.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2403741470",
+    "id" : "E49BD6B9",
+    "lastKnownWriteTime" : 1561204212,
+    "last_content_update" : 1561204212286,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/GIT/PROYECTO_SHINY_R/LIBRERÍAS DE R ADICIONALES.R",
+    "project_path" : "LIBRERÍAS DE R ADICIONALES.R",
+    "properties" : {
+        "cursorPosition" : "12,42",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 15,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

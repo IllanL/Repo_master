@@ -1,0 +1,434 @@
+#---------------------------------------------------------------------------#
+# Stats.R: Con este unico fichero, se pretende ensenar estadistica basica para
+# el master de data science, necesaria para comprender los siguientes metodos
+# que se aprenderan para modelizar datos
+#---------------------------------------------------------------------------#
+
+#----------------------------------------------------------------------------------------
+#  ___           _          _                 ____    _             _             ____  
+# |_ _|  _ __   (_)   ___  (_)   ___    _    / ___|  | |_    __ _  | |_   ___    |  _ \ 
+#  | |  | '_ \  | |  / __| | |  / _ \  (_)   \___ \  | __|  / _` | | __| / __|   | |_) |
+#  | |  | | | | | | | (__  | | | (_) |  _     ___) | | |_  | (_| | | |_  \__ \   |  _ < 
+# |___| |_| |_| |_|  \___| |_|  \___/  (_)   |____/   \__|  \__,_|  \__| |___/   |_| \_\
+#----------------------------------------------------------------------------------------
+
+
+rm(list = setdiff(ls(),ls()[startsWith(ls(),"Intervalo")]))
+
+#-----------------------------------------------#
+#------------ Estadisticos basicos -------------#
+#-----------------------------------------------#
+
+#--Media
+mean(x)
+
+#--varianza
+var(x)
+
+#--desviacion tipica
+sd(x)
+
+
+#--Moda (no hay una funcion en base predefinida)
+getmode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+v <- c(2,1,2,3,1,2,3,4,1,5,5,3,2,3)
+
+getmode(v)
+
+# Con caracteres 
+charv <- c("data","science","statistics","science","science")
+getmode(charv)
+
+DescTools::Mode(v)
+DescTools::Mode(charv)
+
+#--Mediana
+median(x)
+
+#--Quantiles
+quantile(x,probs = c(0.5))
+quantile(x)
+quantile(x,probs = c(0.12,0.33,0.66,0.79))
+
+
+#--Histograma
+hist(x)
+hist(x,prob=T)
+lines(density(x),col="red",lwd=2)
+
+plot_ly(x = x, type = "histogram")
+
+
+#--Boxplots
+y=rnorm(length(x),1)
+boxplot(data.frame(x,y))
+
+
+plot_ly(y = x, type = "box") %>%
+  add_trace(y = y)
+
+
+boxplot(ggplot2::diamonds)
+
+plot_ly(ggplot2::diamonds, y = ~price, color = ~cut, type = "box")
+
+
+
+#--Funciones de probabilidad, densidad distribucion.
+
+
+dbinom(2,size=10,prob=0.2) #Probabilidad que una binomial(10,0.2) tome el valor 2 es,
+pbinom(2,size=10,prob=0.2) #Probabilidad que una binomial(10,0.2) tome un valor inferior a 2
+qbinom(0.9,size=10,prob=0.2) # que valor de una binomial(10,0.2) presenta una probabilidad acumulada de 0.9 ?
+rbinom(20,size=10,prob=0.2) # generar 20 valores aleatorios de una distribuci?n binomial(10,0.2)
+
+
+
+dnorm(x, mean=0, sd=1) #d: densidad
+pnorm(0.1, mean=0, sd=1) #p: distribucion
+qnorm(0.11, mean=0, sd=1) #q: quantile, que valor de una N(0,1) presenta una probabilidad acumulada de 0.11 
+rnorm(1000, mean=0, sd=1) #r: random values de tamano n media mean y desviacion sd
+
+
+#-- Graficas Discretas
+par(mfrow=c(1,2))
+x<-c(0,1:10)
+plot(x,dbinom(x,size=10,prob=0.5),type='h',main="Funci\u00f3n de Probabilidad Binomial", xlab="k", ylab="P(X=k)")
+plot(x,pbinom(x,size=10,prob=0.5),type='s',main="Funci\u00f3n de Distribuci\u00f3n Binomial", xlab="k", ylab="P(X<=k)")
+
+
+#-- Graficas Continuas
+par(mfrow=c(1,2))
+x<-seq(-5,5,by=0.1)
+plot(x,dnorm(x,mean=0,sd=1),type='l',main="Funci\u00f3n de densidad normal",xlab="x", ylab="f(x)",col="blue",lwd=2)
+plot(x,pnorm(x,mean=0,sd=1),type='l',main="Funci\u00f3n de distribuci\u00f3n normal",xlab="x", ylab="F(x)",col="blue",lwd=2)
+
+
+
+#-----------------------------------------------#
+#---------- Correlacion y covarianza -----------#
+#-----------------------------------------------#
+
+
+#Dataset precargado en ggplot2
+economics<-data.frame(economics)
+head(economics)
+
+#Relacion entre personal consumption (pce) y personal saving rate (psavert)
+cor(economics$pce,economics$psavert)
+cov(economics$pce,economics$psavert)
+
+plot(economics$pce,economics$psavert)
+
+#Manualmente
+
+xPart<-economics$pce-mean(economics$pce)
+yPart<-economics$psavert-mean(economics$psavert)
+
+nMinusOne <- nrow(economics)-1
+
+xSD<-sd(economics$pce)
+ySD<-sd(economics$psavert)
+
+sum(xPart*yPart) / (nMinusOne*xSD*ySD)
+
+
+#Para una matriz
+cor(economics[,c(2,4:6)])
+
+#plot con informacion relevante
+ggpairs(economics[,c(2,4:6)])
+
+#Matriz de correlacion grafica
+econCor<-cor(economics[,c(2,4:6)])
+econMelt<-melt(econCor,varnames = c("x","y"),
+               value.name = "Correlation")
+econMelt
+
+#corplot
+ggplot(econMelt,aes(x=x,y=y)) + #inicializa el plot
+  geom_tile(aes(fill=Correlation))+ # Dibujar mosaicos rellenando el color en base a la correlación.
+  scale_fill_gradient2(low=muted("red"),mid="white",
+                       high = "steelblue",
+                       guide=guide_colorbar(ticks = F,barheight = 10),
+                       limits=c(-1,1)) + #escala de colores, entre -1 y 1 desde rojo hasta azul
+  theme_minimal() + #usa el theme minimo para que no haya extras en el plot
+  labs(x=NULL,y=NULL) #no coloques valores de xlab ni ylab
+
+
+#que ocurre si tengo variables discretas?
+data(tips)
+head(tips)
+
+cor(tips[,c(1,2)])
+
+ggpairs(tips)
+
+
+#"Correlation doesn't mean Causation"
+getXKCD(which="552")
+
+getXKCD(which="554")
+
+
+#Covarianza
+cov(economics$pce,economics$psavert)
+cov(economics[,c(2,4:6)])
+
+#Verificando que cov y cor*sd*sd son lo mismo
+value1<-cov(economics$pce,economics$psavert)
+value1
+
+value2<-cor(economics$pce,economics$psavert)*(sd(economics$pce))*sd(economics$psavert)
+value2
+
+value1==value2
+
+#-----------------------------------------------#
+#------------------- Q-Q Plot ------------------#
+#-----------------------------------------------#
+
+
+ejemploQQ<-data.frame(V1=c(3,11,16,19,20,21,22,23,24,24,24,25,26,27,28,29,29,30,30,31,32,34))
+
+ejemploQQ$V1 <- sort(ejemploQQ$V1) 
+
+n <- length(ejemploQQ$V1)
+a <- 1/2 
+
+ejemploQQ$pi <- (1:n-a)/(n)
+ejemploQQ$phiInv <- qnorm(ejemploQQ$pi)
+par(mfrow=c(1,2))
+plot(ejemploQQ$phiInv,ejemploQQ$V1,
+     xlab="Cuantiles Normal Est\u00e1ndar",
+     ylab="Datos ordenados", main="Ejemplo (a mano)") 
+
+qqnorm(ejemploQQ$V1,main ="Usando la funci\u00f3n qqnorm")
+
+
+
+
+#-----------------------------------------------#
+#---- Intervalos de confianza "manualmente" ----#
+#-----------------------------------------------#
+
+rm(list = ls())
+
+functions_to_load<-list.files("./Functions/",pattern = ".R",full.names = T)
+sapply(functions_to_load,source)
+
+
+Nest<-rnorm(5000,mean=0,sd=1)
+muestra1<-sample(Nest, size=50)
+muestra2<-sample(Nest,size=50)
+
+#Media y varianza
+Intervalo.Confianza.media(muestra1,alpha=0.05, sigma.conocido=T, sigma=1)
+Intervalo.Confianza.var(muestra1,alpha=0.05)
+
+
+#Diferencia de medias
+muestrax<-rnorm(500,mean=0,sd=2)
+muestray<-rnorm(280,mean=0.3,sd=2.5)
+
+Intervalo.Confianza.difmedia(muestrax,muestray,0.05,sigmas.conocidos=T, sigmas.iguales=T, 2,2.5)
+Intervalo.Confianza.convar(muestrax,muestray,0.05)
+
+
+
+
+
+
+#-----------------------------------------------#
+#------ Estimacion de la media poblacional------#
+#-----------------------------------------------#
+
+
+NN=1e6
+#Supongamos que la distribucion de la altura de ninos de 5 años en una poblacion
+#Viene dada por
+
+poblacion=rnorm(NN,108,5)
+
+nn=250 #tamano muestral
+
+########### Estimación puntual
+
+muestra=sample(poblacion,nn) #muestreo simple
+mean(muestra) #media muestral de la altura
+mean(muestra<100) #proporcion muestral de ninos con un altura inferior a 1 metro
+
+
+########### Distribución de la media muestral
+K=1000 #Número de muestras
+
+medias=replicate(K,mean(sample(poblacion,nn)))
+
+#La linea anterior es esquivalente a
+medias<-c()
+for(i in 1:K){
+  medias[i]<-mean(sample(poblacion,nn))
+}
+
+
+qplot(medias,ylab="frecuencia",xlab="Media muestral")
+
+
+
+########### Estimacion por intervalos
+t.test(muestra) #intervalo de confianza
+t.test((muestra<100)) #intervalo de confianza para la proporcion
+
+
+
+
+
+
+#-----------------------------------------------#
+#----- Determinación del tamano muestral -------#
+#-----------------------------------------------#
+
+
+e=.5 #margen de error
+alfa=.05 # (1-alfa) es el nivel de confianza
+sigma=6 # acotamos la desviación tipica
+z=qnorm(1-alfa/2) #cuantil de la normal
+
+nn=ceiling(z^2/e^2*sigma^2) #tamaño muestral requerido
+muestra1=sample(poblacion,nn) #muestreo simple
+intervalo=t.test(muestra1)$conf.int
+intervalo
+diff(intervalo)/2 #semi-longitud del intervalo: margen de error 
+
+
+
+#-----------------------------------------------#
+#---------- Contrastes de Hipotesis ------------#
+#-----------------------------------------------#
+
+
+NN=1e6
+
+#Supongamos que la distribución del contenido de las botellas de coca-cola viene dada por
+poblacion=rnorm(NN,325,10) 
+
+nn=50 #tamaño muestral
+muestra2=sample(poblacion,nn) #muestreo simple
+
+########### Contraste unilateral
+t.test(muestra2,alternative="less",mu=330)
+
+########### Contraste bilateral
+t.test(muestra2,mu=330)
+
+########### Comparación de medias
+poblacionA=rnorm(NN,15,10);poblacionB=rnorm(NN,20,10) 
+nA=nB=nn #tamaños muestrales
+muestraA=sample(poblacionA,nA) 
+muestraB=sample(poblacionB,nB) 
+t.test(muestraA,muestraB,var.equal = TRUE)
+
+
+
+
+#-----------------------------------------------#
+#------------- One-sample t-test ---------------#
+#-----------------------------------------------#
+
+
+rm(list=ls())
+
+t.test(tips$tip,alternative = "two.sided",mu=2.5)
+
+#ejemplo
+randT<-rt(30000,df=NROW(tips)-1)
+
+
+#hallamos el t-estadistico y otra informacion
+tipTTest<-t.test(tips$tip,alternative = "two.sided",mu=2.5)
+
+tipTTest
+
+#graficamos
+ggplot(data.frame(x=randT))+
+  geom_density(aes(x=x),fill="grey",color="grey") +
+  geom_vline(xintercept = tipTTest$statistic) +
+  geom_vline(xintercept = mean(randT) + c(-2,2)*sd(randT),linetype=2)
+
+t.test(tips$tip,alternative = "greater",mu=2.5)
+
+
+
+
+#-----------------------------------------------#
+#------------- Two-sample t-test ---------------#
+#-----------------------------------------------#
+
+rm(list=ls())
+
+aggregate(tip ~sex,data=tips,var)
+
+#test de normalidad para la distribucion de tip
+shapiro.test(tips$tip)
+
+#para chicos
+shapiro.test(tips$tip[which(tips$sex=="Female")])
+
+#para chicas
+shapiro.test(tips$tip[which(tips$sex=="Male")])
+
+ggplot(tips,aes(x=tip,fill=sex)) + 
+  geom_histogram(binwidth = 0.5,alpha=1/2)
+
+#Usamos un test noparametrico
+ansari.test(tip ~sex,tips)
+
+#Varianzas iguales, usamos el two-sample t-test
+t.test(tip~sex,data=tips,var.equal=T)
+
+
+
+
+#-----------------------------------------------#
+#------------------ ANOVA ----------------------#
+#-----------------------------------------------#
+
+
+
+rm(list=ls())
+
+tipAnova<-aov(tip~day-1,tips)
+
+tipIntercept<-aov(tip~day,tips)
+
+tipAnova$coefficients
+
+tipIntercept$coefficients
+
+summary(tipAnova)
+
+
+tipsByDay<-ddply(tips,"day",summarize,
+                 tip.mean=mean(tip),tip.sd=sd(tip),
+                 Length=NROW(tip),
+                 tfrac=qt(p=0.90,df=Length-1),
+                 Lower=tip.mean-tfrac*tip.sd/sqrt(Length),
+                 Upper=tip.mean+tfrac*tip.sd/sqrt(Length))
+
+ggplot(tipsByDay,aes(x=tip.mean,y=day))+geom_point()+
+  geom_errorbarh(aes(xmin=Lower,xmax=Upper),height=0.3)
+
+
+tipsByDay
+
+#----------------------------------------------------------------------------------------
+#  _____               _         ____    _             _             ____  
+# | ____|  _ __     __| |  _    / ___|  | |_    __ _  | |_   ___    |  _ \ 
+# |  _|   | '_ \   / _` | (_)   \___ \  | __|  / _` | | __| / __|   | |_) |
+# | |___  | | | | | (_| |  _     ___) | | |_  | (_| | | |_  \__ \   |  _ < 
+# |_____| |_| |_|  \__,_| (_)   |____/   \__|  \__,_|  \__| |___/   |_| \_\
+#----------------------------------------------------------------------------------------
+

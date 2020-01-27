@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550867490148.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1818931001",
+    "id" : "15F583F6",
+    "lastKnownWriteTime" : 1550832974,
+    "last_content_update" : 1550832974,
+    "path" : "C:/Users/Henry N/Desktop/KSchool/my_course/Supervised_Learning/Computer_vision_(basic_deep_learning)/optical_character_recognition_(OCR)/solucion.R",
+    "project_path" : "solucion.R",
+    "properties" : {
+        "cursorPosition" : "269,60",
+        "scrollLine" : "269"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

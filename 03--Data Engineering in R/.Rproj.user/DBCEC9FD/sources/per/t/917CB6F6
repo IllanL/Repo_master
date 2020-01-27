@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1563017984124.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3183196922",
+    "id" : "917CB6F6",
+    "lastKnownWriteTime" : 1555966676,
+    "last_content_update" : 1555966676,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/Data_Engineering_R/APIs/Idealistaandlatlon.R",
+    "project_path" : "APIs/Idealistaandlatlon.R",
+    "properties" : {
+        "cursorPosition" : "8,0",
+        "scrollLine" : "40"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

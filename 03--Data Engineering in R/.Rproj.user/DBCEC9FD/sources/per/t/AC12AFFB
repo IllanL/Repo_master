@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1563009353087.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2836118180",
+    "id" : "AC12AFFB",
+    "lastKnownWriteTime" : 1563014222,
+    "last_content_update" : 1563014222094,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/Data_Engineering_R/Web_scraping/notebook.R",
+    "project_path" : "Web_scraping/notebook.R",
+    "properties" : {
+        "cursorPosition" : "183,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

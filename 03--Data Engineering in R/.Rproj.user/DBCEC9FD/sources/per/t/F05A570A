@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1563018763958.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F05A570A",
+    "lastKnownWriteTime" : 2321945581300428336,
+    "last_content_update" : 1563018763958,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "F9A7C61E",
+        "caption" : "df_idealista",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=df_idealista&cache_key=F9A7C61E",
+        "displayedObservations" : "50",
+        "environment" : "",
+        "expression" : "df_idealista",
+        "object" : "df_idealista",
+        "preview" : "0",
+        "totalObservations" : "50",
+        "variables" : "12"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

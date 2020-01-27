@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1563551427757.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1749306208",
+    "id" : "CC7A50B8",
+    "lastKnownWriteTime" : 1563556708,
+    "last_content_update" : 1563556708252,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/01--CLASES R/Time_Series/ejercicio exploratorio de clase - acf.R",
+    "project_path" : "ejercicio exploratorio de clase - acf.R",
+    "properties" : {
+        "cursorPosition" : "15,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

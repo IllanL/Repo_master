@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1561141507334.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1048419654",
+    "id" : "21E8655E",
+    "lastKnownWriteTime" : 1561143241,
+    "last_content_update" : 1561143241205,
+    "path" : "C:/Users/Illan/Desktop/COSAS KSCHOOL/GIT/PROYECTO_SHINY_R/dos.Rmd",
+    "project_path" : "dos.Rmd",
+    "properties" : {
+        "cursorPosition" : "40,75",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

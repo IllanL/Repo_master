@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562779346993.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3537831722",
+    "id" : "30402F04",
+    "lastKnownWriteTime" : 1562780654,
+    "last_content_update" : 1562780654105,
+    "path" : "C:/Users/Henry N/Google Drive/henavarr@math.uc3m.es 2018-07-10 23_17/KSchool/my_course/Unsupervised_Learning/t-SNE/notebook.R",
+    "project_path" : "notebook.R",
+    "properties" : {
+        "cursorPosition" : "81,43",
+        "scrollLine" : "67",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

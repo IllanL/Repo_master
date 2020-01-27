@@ -1,0 +1,6 @@
+
+x<-rnorm(300,10,12)
+
+
+plot_ly(x =x, type = "histogram") %>%
+  add_segments(x = 0, xend = 0, y = 0, yend = 30)

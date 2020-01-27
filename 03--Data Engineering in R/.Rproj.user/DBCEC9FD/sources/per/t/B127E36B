@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1563015466388.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B127E36B",
+    "lastKnownWriteTime" : 3473130944162509360,
+    "last_content_update" : 1563015466388,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "C9733E28",
+        "caption" : "latlon",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=latlon&cache_key=C9733E28",
+        "displayedObservations" : "148",
+        "environment" : "",
+        "expression" : "latlon",
+        "object" : "latlon",
+        "preview" : "0",
+        "totalObservations" : "148",
+        "variables" : "4"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
